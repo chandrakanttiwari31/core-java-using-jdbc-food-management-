@@ -31,7 +31,7 @@ public class OrderDaoImpl implements OrderDao {
 
 			if (rs.next()) {
 				total = rs.getDouble(1);
-				System.out.println("total" + total);
+				//System.out.println("total" + total);
 				;
 
 			}
